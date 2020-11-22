@@ -10,8 +10,11 @@ import (
 	"time"
 )
 
+const Address = ":8080"
+
 func startServer(addr chan string) {
-	l, err := net.Listen("tcp", ":8080")
+
+	l, err := net.Listen("tcp", Address)
 	if err != nil {
 		log.Fatal("network error:", err)
 	}
