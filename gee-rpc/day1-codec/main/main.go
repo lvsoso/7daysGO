@@ -3,8 +3,8 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"geerpc"
-	"geerpc/codec"
+	geerpc "geerpc-codec"
+	"geerpc-codec/codec"
 	"log"
 	"net"
 	"time"
